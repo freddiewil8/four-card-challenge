@@ -105,14 +105,12 @@
     }
 
     .card p {
-      p {
         font-size: 13px;
         color: hsl(229, 6%, 66%);
         font-weight: 400;
         padding: 8px 20px 8px 0;
         margin: 0;
         line-height: 23px;
-      }
     }
 
     .red-card {
