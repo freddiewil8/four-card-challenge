@@ -1,0 +1,151 @@
+    * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: hsl(0, 0%, 98%);
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    header {
+      padding: 76px 0 0 0;
+      margin: 0;
+    }
+
+    p {
+      font-size: 15px;
+      color: hsl(229, 6%, 66%);
+      font-weight: 400;
+      padding: 14px 0 11px 0;
+      margin: 0;
+      line-height: 23px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: hsl(234, 12%, 34%)
+    }
+
+    h1 {
+      font-weight: 200;
+      font-size: 36px;
+      padding: 0;
+      margin: 0;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 36px;
+      padding: 0;
+      margin: 0;
+    }
+
+    h3 {
+      font-weight: 600;
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      width: 65px;
+      padding: 30px 0 20px 0;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .wrapper {
+      max-width: 1110px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin: 25px auto;
+    }
+
+    .column {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 1 515px;
+      flex: 1 1 515px;
+    }
+
+    .center {
+      text-align: center;
+      margin: 0 auto;
+      width: 510px;
+    }
+
+    .card {
+      text-align: center;
+      margin: 0 auto;
+      -webkit-box-shadow: 0 4px 8px 0 hsl(229, 6%, 66%), 0 6px 20px 0 hsl(229, 6%, 66%);
+      box-shadow: 0 4px 8px 0 hsl(229, 6%, 66%), 0 6px 20px 0 hsl(229, 6%, 66%);
+      border-radius: 8px;
+      background-color: white;
+      width: 350px;
+      height: 250px;
+      padding: 28px 33px;
+      margin: 30px 15px;
+      font-size: 18px;
+    }
+
+    .card p {
+      p {
+        font-size: 13px;
+        color: hsl(229, 6%, 66%);
+        font-weight: 400;
+        padding: 8px 20px 8px 0;
+        margin: 0;
+        line-height: 23px;
+      }
+    }
+
+    .red-card {
+      border-top: 4px solid hsl(0, 78%, 62%);
+    }
+
+    .cyan-card {
+      border-top: 4px solid hsl(180, 62%, 55%);
+    }
+
+    .orange-card {
+      border-top: 4px solid hsl(34, 97%, 64%);
+    }
+
+    .blue-card {
+      border-top: 4px solid hsl(212, 86%, 64%);
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .left {
+      text-align: left;
+    }
+
+    @media all and (max-width: 500px) {
+      .wrapper {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      }
+
+      .center {
+        width: 375px;
+      }
+    }
